@@ -9,7 +9,7 @@ import (
 
 type Temperature struct {
 	Value float64
-	Unit  string
+	Unit  string // 'C' for celcius and 'F' for fahrenheit
 }
 
 func celsiusToFahrenheit(temp *Temperature) *Temperature {
@@ -36,7 +36,8 @@ func main() {
 	}
 	unit := strings.ToUpper(os.Args[2])
 	
-	startTemp := &Temperature{value, unit}
+	// Perform the convertion
+	startTemp := &Temperature{value, unit} 
 	var convertedTemp *Temperature
 	switch startTemp.Unit {
 	case "F":
@@ -48,5 +49,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("%.0f %s\n", convertedTemp.Value, convertedTemp.Unit)
+	// the '%.0f %s' is the format for a float with no decimals followed by a string 
+	fmt.Printf("%.0f %s\n", convertedTemp.Value, convertedTemp.Unit)   
 }
