@@ -18,4 +18,4 @@ E.g:
 | Week no. | Code contents |
 | --- | --- |
 | 4 | linkedlist |
-| 5 | someExercise |
+| 5 | temperatureConverter |

@@ -35,7 +35,7 @@ func main() {
 		os.Exit(1)
 	}
 	unit := strings.ToUpper(os.Args[2])
-
+	
 	startTemp := &Temperature{value, unit}
 	var convertedTemp *Temperature
 	switch startTemp.Unit {
