@@ -17,8 +17,8 @@ E.g:
 
 | Week no. | Code contents |
 | --- | --- |
-| 4 | linkedlist |
-| 5 | temperatureConverter |
+| 4 | [linkedlist](https://github.com/August-Brandt/SdseExercise2024/tree/main/linkedlist) |
+| 5 | [temperatureConverter](https://github.com/August-Brandt/SdseExercise2024/tree/main/temperatureConverter) |
 
 # Nix support
 **If you are not using nix please ignore these files in the root folder of the repo:**  
